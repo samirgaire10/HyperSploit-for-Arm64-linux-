@@ -22,6 +22,43 @@ By using this tool you acknowledge that:
 2) A valid SIM-card must be inserted with access to the internet
 3) You're running an official version of HyperOS
 
+## compile for Arm64 linux 
+
+git clone https://github.com/TheAirBlow/HyperSploit.git
+cd HyperSploit
+
+gcc main.c -o program
+g++ main.cpp -o program
+
+ sudo apt install dotnet-sdk-9.0
+ 
+ dotnet --version
+ ans ... 9.0.112
+
+ dotnet restore
+
+ls bin/Release/net9.0/linux-arm64/publish/
+
+cd  bin/Release/net9.0/linux-arm64/publish/
+
+./HyperSploit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Bypass
 1) Open developer settings and open Mi Unlock Status
 2) Request unlocking, it will for whatever reason log everything necessary to forge the binding request ourselves
